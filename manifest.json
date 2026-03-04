@@ -1,0 +1,41 @@
+{
+  "name": "RAJ Financial Services",
+  "short_name": "RAJ Finance",
+  "description": "Professional Stock Analyzer by Yash Raj",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#040000",
+  "theme_color": "#cc0000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "business"],
+  "shortcuts": [
+    {
+      "name": "Analyze Stock",
+      "short_name": "Analyze",
+      "description": "Analyze any stock",
+      "url": "/?action=analyze",
+      "icons": [{"src": "/static/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Risk Calculator",
+      "short_name": "Risk Calc",
+      "description": "Calculate trade risk",
+      "url": "/?action=risk",
+      "icons": [{"src": "/static/icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
